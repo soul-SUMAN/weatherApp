@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wather application</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="card">
+      <div class="search">
+        <img src="C:\Users\suman\Desktop\project\istockphoto-1178256163-170667a.jpg" alt="" srcset="">
+        <input type="text" class="input-box" placeholder="Enter city name" spellcheck="false"  >
+        <button class="fa-solid fa-magnifying-glass" id="searchbtn">
+        </button>
+      </div> 
+
+      <div class="error">
+        <p>
+        <h1>Sorry!!</h1>
+        <h1>The city's weather is not available!
+        </h1>
+        </p>
+        <img src="pictures/browser.png" alt="404">
+      </div>
+
+      <div class="weather-body">
+        <img src="pictures/cliudsun.png" alt="weather_image" class="weather-icon">
+        <div class="weather-box">
+          <h1 class="temperature"> 0 <sup>°C</sup> <span id="country" class="country">IN</span>
+        </h1>
+          <h1 class="condition"> mostly Sunny</h1>
+        </div>
+          <div class="wather-details">
+            <div class="humidity">
+              <i class="fa-sharp fa-solid fa-droplet"></i>
+                <div class="text">
+                  <span id="humidity-ty">0 %</span>
+                    <h3>humidity</h3>
+                </div>
+            </div>
+
+            <div class="wind">
+              <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                  <span id="wind-speed"> 0 km/h</span>
+                    <h3>wind speed</h3>
+                </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+    <script src="https://kit.fontawesome.com/9a191e853c.js" crossorigin="anonymous"></script>
+</body>
+</html>
